@@ -20,7 +20,7 @@ def request_location(imei):863865047490851
     print("Requesting location from Google Find My Device...")
 
     # Simulate a successful request for testing purposes
-    return "-29.614751, -73.136017"
+    return ""
 
 # Function to parse the location information from the response
 def parse_location(response_text):
