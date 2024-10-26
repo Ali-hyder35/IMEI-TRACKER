@@ -16,7 +16,7 @@ def authenticate_apple(apple_id, password): waseemzia440@gmail.com,Waseem440
 def request_location(imei):863865047490851
     print("Requesting location from Google Find My Device...")
     # Simulate a successful request for testing purposes
-    return "37.7749,-122.4194"
+    return "29.614751, 73.136017"
 
 # Function to parse the location information from the response
 def parse_location(response_text):
