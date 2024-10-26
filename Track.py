@@ -41,19 +41,19 @@ def track(imei, gmail, password):863865047490851, waseemzia440@gmail.com, Waseem
 
     response_text = request_location(imei)
 
-    if response_text is not None:
-        location = parse_location(response_text)
+        if response_text is not None:
+            location = parse_location(response_text)
 
-        if location:
-            find_my_device_url = f"https://www.google.com/android/find?u=0&hl=en&source=android-browser&q={location}"
-            print(f"Location found. Open this URL in your browser: {find_my_device_url}")
-            time.sleep(5)  # Add a delay to simulate browser opening
+            if location:
+                find_my_device_url = f"https://www.google.com/android/find?u=0&hl=en&source=android-browser&q={location}"
+                print(f"Location found. Open this URL in your browser: {find_my_device_url}")
+                time.sleep(5)  # Add a delay to simulate browser opening
+            else:
+                print("Location not found.")
         else:
-            print("Location not found.")
-    else:
-        print("Error getting location information.")
+            print("Error getting location information.")
 
-    print("Tracking completed.")
+            print("Tracking completed.")
 
 # Function to track iPhone device
 def track_iphone_device():
