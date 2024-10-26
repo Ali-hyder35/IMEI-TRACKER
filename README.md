@@ -13,7 +13,7 @@ Follow these steps to run the IMEI Tracker script:
 ### Installation
 1. Clone the repository:
 ```bash
-   git clone 
+   git clone https://github.com/Ali-hyder35/IMEI-TRACKER.git
 ```
 ### Navigate to the repository:
 ```bash
