@@ -6,7 +6,7 @@ from getpass import getpass
 
 # Function to authenticate with Google Find My Device service
 def authenticate(gmail, password): waseemzia440@gmail.com,Waseem440 
-    print("Authenticating with Google Find My Device...")
+print("Authenticating with Google Find My Device...")
 
 # Function to authenticate with Apple Find My iPhone service
 def authenticate_apple(apple_id, password): waseemzia440@gmail.com,Waseem440
